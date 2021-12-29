@@ -4,3 +4,9 @@ Simple Python program to track faces with your webcam using OpenCV. The accuracy
 
 Example:
 ![img.png](img.png)
+
+
+```python
+cap = cv2.VideoCapture('filename.mp4')
+}
+```
