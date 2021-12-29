@@ -5,9 +5,6 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
 
-# Input from mp4 file:
-# cap = cv2.VideoCapture('filename.mp4')
-
 while True:
     # Read the frame
     _, img = cap.read()
